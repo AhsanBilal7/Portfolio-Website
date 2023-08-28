@@ -1,0 +1,332 @@
+{
+    "FrontEnd": [
+        {
+            "title": "Login and Registeration",
+            "description": "Login and Regsiteration with Local Server and React, Redux and Redux Persist",
+            "icons": [
+                "/react.svg",
+                "/persistent.svg",
+                "/redux.svg",
+                "/next.svg",
+                "/api.svg",
+                "/bootstrap.png"
+            ],
+            "link": "https://github.com/AhsanBilal7/Shopping-Cart-UI.git",
+            "imagepath": "/json-server.png"
+        },
+        {
+            "title": "Github User Finder",
+            "description": "Develop Github User finder Webpage using Github Finder API, HTML and CSS",
+            "icons": [
+                "/github.svg",  
+                "/html.svg",  
+                "/css.svg", 
+                "/javascript.svg" 
+            ],
+            "link": "https://github.com/AhsanBilal7/Responsive-Github-User-Finder-React.git",
+            "imagepath": "/github_user.png"
+        },
+        {
+            "title": "Current Weather App",
+            "description": "Used to find the weather of the city we search. Spelling of city should be same",
+            "icons": [
+                "/html.svg",
+                "/css.svg",
+                "/javascript.svg"
+            ],
+            "link": "https://github.com/AhsanBilal7/Current-Weather-Webpage.git",
+            "imagepath": "/currentWeather.png"
+        },
+        {
+            "title": "Dashboard using React",
+            "description": "Develop Dashboard using Chakri UI and Material UI with Graphs",
+            "icons": [
+                "/graph.svg",
+                "/react.svg",
+                "/materialui.svg"
+            ],
+            "link": "https://github.com/AhsanBilal7/Dashboard-React.git",
+            "imagepath": "/dashboard.png"
+        },
+        {
+            "title": "Recipe App ",
+            "description": "Recipe App with Search Functionality",
+            "icons": [
+                "/react.svg",
+                "/css.svg",
+                "/api.svg"
+            ],
+            "link": "https://github.com/AhsanBilal7/Recipe-Web-App-Using-React",
+            "imagepath": "/recipt_with_search.png"
+        },
+        {
+            "title": "Landing Page",
+            "description": "Design in Figma and Develop Landing Page with HTML, CSS, and Vanilla Javascript",
+            "icons": [
+                "/html.svg",
+                "/css.svg",
+                "/figma.svg",
+                "/javascript.svg"
+            ],
+            "link": "https://github.com/AhsanBilal7/Responsive-Landing-Page",
+            "imagepath": "/lanadingPage.png"
+        },
+        {
+            "title": "Movies List - Popular/Trending",
+            "description": "Develop UI to fetch data of current popular and trending movies",
+            "icons": [
+                "/html.svg",
+                "/css.svg",
+                "/bootstrap.png",
+                "/javascript.svg"
+            ],
+            "link": "https://github.com/AhsanBilal7/Movies-List-Webpage-React.git",
+            "imagepath": "/movieslist.png"
+        },
+        {
+            "title": "Product Modal",
+            "description": "Product Modal and Add to Cart Using React",
+            "icons": [
+                "/react.svg",
+                "/css.svg",
+                "/bootstrap.png",
+                "/javascript.svg"
+            ],
+            "link": "https://github.com/AhsanBilal7/Shopping-Cart-UI.git",
+            "imagepath": "/productModal.png"
+        },
+        {
+            "title": "Accordion",
+            "description": "Accordion in React ",
+            "icons": [
+                "/html.svg",
+                "/css.svg",
+                "/bootstrap.png",
+                "/javascript.svg"
+            ],
+            "link": "https://github.com/AhsanBilal7/Shopping-Cart-UI.git",
+            "imagepath": "/accordian.png"
+        }
+    ],
+    "wordpress": [
+        {
+            "title": "Teachtrain",
+            "description": "Website for Online Tutoring",
+            "icons": [
+                "/wordpress.svg",
+                "/css.svg",
+                "/figma.svg"
+            ],
+            "link": "https://teachtrain.online/",
+            "imagepath": "/teachtrain.png"
+        },
+        {
+            "title": "E8T App",
+            "description": "Crpto Wallet Website",
+            "icons": [
+                "/wordpress.svg",
+                "/css.svg",
+                "/figma.svg",
+                "/php.svg"
+            ],
+            "link": "https://www.e8t.app/",
+            "imagepath": "/e8t.png"
+        },
+        {
+            "title": "CourseCraft",
+            "description": "CourseCraft Studio Website",
+            "icons": [
+                "/wordpress.svg",
+                "/css.svg",
+                "/figma.svg",
+                "/php.svg"
+            ],
+            "link": "https://coursecraft.studio/",
+            "imagepath": "/coursecraft.png"
+        },
+        {
+            "title": "ManageJira",
+            "description": "Website to manage JIRA",
+            "icons": [
+                "/wordpress.svg",
+                "/css.svg",
+                "/figma.svg",
+                "/php.svg"
+            ],
+            "link": "https://managejira.com/",
+            "imagepath": "/managejira.png"
+        },
+        {
+            "title": "DoDarakht",
+            "description": "Website for farmers to buy plants ",
+            "icons": [
+                "/wordpress.svg",
+                "/css.svg",
+                "/figma.svg",
+                "/php.svg"
+            ],
+            "link": "https://dodarakht.com/",
+            "imagepath": "/dodarakht.png"
+        }
+    ],
+    "ml": [
+        {
+            "title": "Human Gait Recognition",
+            "description": "(Ongoing) Human Gait Reocgnition using Human Pose Skeletons",
+            "icons": [
+                "/python.svg",
+                "/tensorflow.svg",
+                "/numpy.svg"
+            ],
+            "link": "#",
+            "imagepath": "/gait.jpg"
+        },
+        {
+            "title": "Malaria Detection",
+            "description": "Practice LeNet Model of Malaria Detection using Tensorflow",
+            "icons": [
+                "/python.svg",
+                "/tensorflow.svg",
+                "/nn.svg"
+            ],
+            "link": "https://github.com/AhsanBilal7/Malaria-Detection-LeNet.git",
+            "imagepath": "/malaria.png"
+        },
+        {
+            "title": "Human Emotion Detection",
+            "description": "Practice Human Emotion Detection using EfficientNet, ResNet34",
+            "icons": [
+                "/python.svg",
+                "/tensorflow.svg",
+                "/wandb.svg",
+                "/nn.svg"
+            ],
+            "link": "https://github.com/AhsanBilal7/Human-Emotion-Detection-ResNet34.git",
+            "imagepath": "/human.jpg"
+        },
+        {
+            "title": "Stock Prediction Using GRUs and LSTM",
+            "description": "Practice the Kaggle notebook of Stock Predicction",
+            "icons": [
+                "/python.svg",
+                "/tensorflow.svg",
+                "/pandas.svg"
+            ],
+            "link": "https://github.com/AhsanBilal7/Stock-Prediction-Using-LSTM-and-GRU.git",
+            "imagepath": "/stock.jpg"
+        },
+        {
+            "title": "Vehicle / Non-Vehicle Detectiopn",
+            "description": "Practice Model to differentiate between vehicle and non vehical",
+            "icons": [
+                "/python.svg",
+                "/tensorflow.svg",
+                "/nn.svg"
+            ],
+            "link": "https://github.com/AhsanBilal7/Vehicle-Non-Vehicle-Detection.git",
+            "imagepath": "/vehicle.jpg"
+        }
+    ],
+    "electrical": [
+       
+        {
+            "title": "Audio Matching using Shazam",
+            "description": "Semester Project for the course of Digital Signal Processing",
+            "icons": [
+                "/python.svg",
+                "/pandas.svg"
+            ],
+            "link": "https://github.com/AhsanBilal7/Audio-Matching-Shazam-Style-Using-Hashing.git",
+            "imagepath": "/audio.png"
+        },
+        {
+            "title": "STM32 LTDC Display",
+            "description": "Configure LTDC Display of STM32 DIscovery board during my Internship at IC Design Lab",
+            "icons": [
+                "/c.svg",
+                "/cplus.svg",
+                "/cubeide.png"
+
+            ],
+            "link": "https://github.com/AhsanBilal7/LTDC-with-STM32F429Zi-Disc-Board.git",
+            "imagepath": "/ltdc.jpg"
+        },
+       
+        {
+            "title": "Atmega16 Door Opening Sytem with Local Server",
+            "description": "Door opening system with Local Server using Atmega16 and Esp32 with RFID Scanner",
+            "icons": [
+                "/atmel_studio.png",
+                "/cplus.svg",
+                "/c.svg",
+                "/arduino.svg"
+            ],
+            "link": "https://github.com/AhsanBilal7/RFID-Door-Opening-Atmega32-Esp32.git",
+            "imagepath": "/dooropening.png"
+        },
+        {
+            "title": "RFID with STM32 Board",
+            "description": "Coonfigure RFID-RC522 with STM32 discovery board",
+            "icons": [
+                "/cplus.svg",
+                "/cubeide.png",
+                "/c.svg"
+            ],
+            "link": "https://github.com/AhsanBilal7/RFID-MFRC522-STM32F429i-Disc.git",
+            "imagepath": "/stmrfid.jpg"
+        },
+        {
+            "title": "Dual Axis Solar Tracker",
+            "description": "Dual Axis Solar Tracker with battery Charger",
+            "icons": [
+                "/c.svg",
+                "/arduino.svg"
+            ],
+            "link": "https://github.com/AhsanBilal7/Dual-Axis-Solar-Tracker.git",
+            "imagepath": "/solar.png"
+        },
+        {
+            "title": "Obstacle Avoidance Robot",
+            "description": "Semester Project for the course ECD (Engineering Circuti Design)",
+            "icons": [
+                "/c.svg",
+                "/cplus.svg",
+                "/arduino.svg"
+            ],
+            "link": "https://github.com/AhsanBilal7/Human-Emotion-Detection-ResNet34.git",
+            "imagepath": "/avoidancerobot.jpg"
+        }
+    ],
+    "figma": [
+       
+        {
+            "title": "Book Wedding-Venue App",
+            "description": "Wedding Book App Designed",
+            "icons": [
+                "/figma.svg",
+                "/materialui.svg"
+            ],
+            "link": "behance.net/ahsanbilal3",
+            "imagepath": "/wedding.png"
+        },
+        {
+            "title": "Game Launcher Design",
+            "description": "Game Launcher Web App Design",
+            "icons": [
+                "/figma.svg",
+                "/materialui.svg"
+            ],
+            "link": "behance.net/ahsanbilal3",
+            "imagepath": "/gamelauncher.png"
+        },{
+            "title": "Orientation Nust 2022",
+            "description": "Covered branding of ON'22",
+            "icons": [
+                "/figma.svg",
+                "/illustrator.svg",
+                "/photoshop.svg"
+            ],
+            "link": "behance.net/ahsanbilal3",
+            "imagepath": "/wedding.png"
+        }]
+}

@@ -1,0 +1,59 @@
+{
+ "lab" : [
+    {
+        "title": "Optimal Machine Learning Lab",
+        "description": "⚡Work on my FYP Gait Recognition System.\n⚡Goal is to make hybrid model for gait recognition\n⚡Hybrid Model for Authentification and Recognition purposes\n ⚡Working on3D Convolution Neural Networks and LSTMs.",
+        "logo" : "/optimal.png",
+        "link": "https://optimal.seecs.nust.edu.pk/",
+        "jobtitle" : "Research Intern",
+        "tenure":"June 2023 - Present"
+    },
+    {
+        "title": "CSN - ML Lab",
+        "description": "⚡ Collaborate with master's students under Dr. Rehan Ahmed and Dr. Rizwan Ahmed.\n⚡ Contribute to machine learning and deep learning projects focused on UAVs Landslide Imaging.\n⚡ Tasks include data augmentation, data labeling, and optimizing ML models.\n⚡ Work towards enhancing machine learning techniques for UAVs Landslide Imaging applications.",
+        "logo" : "/seecs-logo.jpeg",
+        "link": "https://seecs.nust.edu.pk/",
+        "jobtitle" : "Research Assistant",
+        "tenure":"Feb 2023 - Sep 2023"
+    },{
+        "title": "IC Design Lab",
+        "description": "⚡Connect TFT display via GPIO and communication (SPI/parallel RGB).\n⚡Initialize LTDC peripheral for display with resolution and format.\n⚡Use graphics libraries for display drawing.\n ⚡Integrate RFID (RF522) via SPI for card reading and link to display updates.",
+        "logo" : "/icdllogo.png",
+        "link": "https://seecs.nust.edu.pk/",
+        "jobtitle" : "Summer Intern",
+        "tenure":"June 2022 - Sep 2022"
+    }],
+
+
+    "job" : [{
+        "title": "SJCurve",
+        "description": "As a UI Developer, I specialize in developing responsive web applications using frameworks like WordPress. I design visually appealing and user-friendly interfaces, ensuring optimal functionality and seamless user experiences.",
+        "logo" : "/sjlogo.svg",
+        "link": "https://sjcurve.com/home/",
+        "jobtitle" : "Junior Developer",
+        "tenure":"March 2023 - Present"
+    },{
+        "title": "Meraki IT",
+        "description": "Working on the projects' design aspects. As a UX/UI Designer, I am responsible to produce user-centered and effective designs. Understanding the issue statement in its entirety and offering a solution through the finished product",
+        "jobtitle" : "UX/UI Designer",
+        "logo" : "/merakilogo.jpeg",
+        "link": "http://www.meraki-it.pk/",
+        "tenure":"Nov 2022 - May 2023"
+    },{
+        "title": "UX/UI Design Intern",
+        "description": "Working on the UI for the current project under the name Superleader Collaborate with the team to develop a user friendly and equitable design and Prototype of the project",
+        "jobtitle" : "UI/UX Designer",
+        "logo" : "/thinksoft.jpeg",
+        "link": "https://thinksoft.io/",
+        "tenure":"Sep 2021 - Apr 2022"
+    },
+    {
+        "title": "State Life Insurance Coorporation",
+        "description": "Working as a intern in the Engineering Depart of the State Life Incooporation. Working and learning about the Building Power System and side by sideabout the workflow of the whole Insurance System",
+        "jobtitle" : "Electrical Engineer Intern",
+        "logo" : "/statelife.jpeg",
+        "link": "https://www.statelife.com.pk/",
+        "tenure":"Sep 2021 - Apr 2022"
+    }]
+    
+    }

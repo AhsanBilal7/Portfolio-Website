@@ -1,0 +1,62 @@
+
+ [{
+        "title": "Orientation NUST 2022",
+        "designation": "Deputy Director ",
+        "logopath" : "/onlogo.jpeg",
+        "certpath": "/oncert.png",
+        "tenure":"Jul 2022 - Sep 2022",
+        "clublink": "https://www.instagram.com/o_nust/"
+    },{
+        "title": "TABA Youth Chapter",
+        "designation": "Community Creative Member",
+        "logopath" : "/tabalogo.jpeg",
+        "certpath": "/tabacert.jpg",
+        "tenure":"June 2020 - Jun 2021",
+        "clublink": "https://www.instagram.com/tycnust/"
+    },{
+        "title": "CodeFest 2021",
+        "designation": "Creative Head",
+        "logopath" : "/codefestlogo.jpg",
+        "certpath": "/googlecert.png",
+        "tenure":"Dec 2021 - Feb 2022",
+        "clublink": "https://www.instagram.com/gdscnust/"
+    },
+    {
+        "title": "AIME",
+        "designation": "Mentor ",
+        "logopath" : "/aime.jpeg",
+        "certpath": "/tabacert.jpg",
+        "tenure":"June 2020 - Jun 2021",
+        "clublink": "https://www.linkedin.com/company/aime/"
+    },{
+        "title": "Google Student Club NUST",
+        "designation": "Creative Lead",
+        "logopath" : "/gdsc.jpeg",
+        "certpath": "/googlecert.png",
+        "tenure":"Sep 2021 - Jul 2022",
+        "clublink": "https://www.linkedin.com/company/gdscnust/"
+    }
+    ,
+    {
+        "title": "National Literary Festival 2021",
+        "designation": "Operation Member",
+        "logopath" : "/nlflogo.png",
+        "certpath": "/nlfcert.jpg",
+        "tenure":"Mar 2021 - Aug 2021",
+        "clublink": "https://www.instagram.com/national_literary_festival/"
+    },{
+        "title": "Nust Trekking Club",
+        "designation": "Creative Team Member",
+        "logopath" : "/ntclogo.png",
+        "certpath": "/ntccert.jpg",
+        "tenure":"Jun 2020 - Jun 2021",
+        "clublink": "https://www.instagram.com/o_nust/"
+    },{
+        "title": "AWS Community Day",
+        "designation": "Community Day Ambassadar",
+        "logopath" : "/aws.jpeg",
+        "certpath": "/googlecert.png",
+        "tenure":"Sep 2021 - Oct 2021",
+        "clublink": "https://www.linkedin.com/company/aws-community-pakistan/"
+    }]
+    

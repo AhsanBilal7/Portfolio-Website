@@ -1,0 +1,126 @@
+/* styles.module.css */
+.link {
+    position: relative;
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s;
+    margin-left: 25px;
+    cursor: pointer;
+    font-size: 22px;
+  }
+  .logoImage{
+    cursor: pointer;
+  }
+  
+  .link::before {
+    content: "";
+    position: absolute;
+    bottom: -4px; /* Adjust this value to control the underline's position */
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #007bff;
+    transition: width 0.3s;
+  }
+  
+  .link:hover::before {
+    width: 100%;
+  }
+  
+  .activeLink{
+    color: #007bff;
+    /* font-weight: bold; */
+  }
+  .container{
+    margin: 0px 4px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 0px 40px;
+    padding-top: 10px;
+    position: fixed;
+    z-index: 1;
+    border-radius: 10px;
+    background: #f1f1f18b;
+    /* box-shadow: 3px 0px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    backdrop-filter: blur(2px);
+    border: 1px solid rgb(232, 232, 232);
+    margin-top: 70px;
+  }
+  .main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+
+  
+
+
+
+
+  /* //////////////// */
+
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #333;
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
+  }
+  
+  .heart {
+    color: #ff0000;
+  }
+  
+  .linkedinLink {
+    color: #0077b5;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .linkedinLink:hover {
+    color: #005fa3;
+  }
+  
+  .linkedinIcon {
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+  
+
+/* ////////////////////// */
+
+
+
+/* styles.module.css */
+/* ...existing styles... */
+
+/* Adjust the logo size for mobile */
+@media (max-width: 768px) {
+  .logoImage {
+    min-width: 70px;
+  }
+  .link {
+    font-size: 18px;
+  }
+
+  .container {
+    /* Adjust container styles for mobile view */
+    padding: 10px 20px;
+    margin-top: 0;
+    border-radius: 0;
+  }
+
+  .main {
+    /* Remove margin-bottom for mobile view */
+    margin-bottom: 0;
+  }
+
+  /* Hide navigation links in mobile view */
+  .mobileNav {
+    display: none;
+  }
+}

@@ -1,129 +1,136 @@
-.container {
-  padding: 0 2rem;
+/* /////////////////////////////////      Hero Section Css          ///////////////////////////////// */
+/* styles/HeroSection.module.css */
+
+.heroContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    padding-bottom: 10px;
+  }
+  
+  .textSection {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .textSection h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+  .textSection h2 {
+    font-size: 25px;
+    font-weight:300;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .imageSection{
+
+      flex: 1;
+    }
+    .image{
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+        
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.headingName h2{
+
+  font-size: 40px;
+  padding-bottom: 20px;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+
+/* /////////////////////// */
+/* In your styles.css or .scss file */
+
+/* Styles for the heading container */
+/* In your styles.css or .scss file */
+
+/* Styles for the heading */
+.headingName {
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  animation: fade 0.8s ease-in-out forwards ; /* Apply the "fade" animation */
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+/* Define the "fade" animation */
+@keyframes fade {
+  0% {
+    opacity: 0.2; /* Set initial and final opacity */
+  }
+  100% {
+    opacity: 1; /* Set opacity during the middle of the animation */
+  }
 }
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
+/* Styles for the main heading text */
+.headingone {
+  font-size: 40px; /* Adjust the font size as needed */
+  font-weight: 600;
   margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+  z-index: 2; /* Place it on top of the background text */
 }
 
-.title,
-.description {
+/* Styles for the background heading text */
+.headingBackground {
+  font-size: 80px; /* Adjust the font size as needed */
+  margin: 0;
+  font-weight: 900;
+  position: absolute;
+  color: #007bff;
   text-align: center;
+  top: -55px;
+  left: -11px;
+  width: 100%;
+  opacity: 0.1; /* Adjust the opacity as desired */
+  z-index: 1; /* Place it behind the main text */
+  transition: opacity 0.5s ease-in-out; /* Add a smooth transition effect */
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
+/* /////////////////////// */
 
-.code {
-  background: #fafafa;
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
   border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Add transition effect */
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+.button:hover {
+  background-color: #0056b3; /* Darker color on hover */
 }
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
+.button Link{
+  color: white;
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+  
+  /* Add animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
-}
-
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
+  
+  .textSection,
+  .imageSection {
+    animation: fadeIn 1s ease-in-out;
   }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
-}
+  
+/* /////////////////////////////////      Hero Section Css          ///////////////////////////////// */
