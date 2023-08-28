@@ -1,5 +1,7 @@
+{
 
- [{
+
+ "society":[{
         "title": "Orientation NUST 2022",
         "designation": "Deputy Director ",
         "logopath" : "/onlogo.jpeg",
@@ -58,5 +60,26 @@
         "certpath": "/googlecert.png",
         "tenure":"Sep 2021 - Oct 2021",
         "clublink": "https://www.linkedin.com/company/aws-community-pakistan/"
-    }]
+    }],
+    "courses" :[{
+        
+            "title": "Google UX Professional Certificate",
+            "designation": "7/7",
+            "logopath" : "/googlelogo.png",
+            "certpath": "/googleux.png",
+            "tenure":"2022",
+            "clublink": "https://coursera.org/verify/professional-cert/3TNS75TL8FAY"
+        
+    },
+    {
+        
+        "title": "Deep Learning Specialization Certificate",
+        "designation": "3/5",
+        "logopath" : "/deepai.png",
+        "certpath": "/cnn.png",
+        "tenure":"2022",
+        "clublink": "https://coursera.org/share/d90faa433600d1ce2dd9fb215ead8e4f"
     
+}]
+
+}

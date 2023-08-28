@@ -3,7 +3,7 @@ import Image from "next/image";
 import Button from 'react-bootstrap/Button';
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
-import hero from "../images/hero.svg";
+import hero from "../images/ahsan.png";
 import { Row, Col } from "react-bootstrap";
 import { SocialIcon } from "react-social-icons";
 export default function Home() {
@@ -16,10 +16,9 @@ export default function Home() {
 
       <div className={styles.heroContainer}>
         <div className={styles.textSection}>
-          <h1 className="">Hey Peeps !</h1>
+          <h1 className="">Hey There !</h1>
           <h2>
-            I am a UI/UX Designer 🎨, UI Developer 💻, Machine Learning
-            Enthusiast 🤖, and a Great Problem Solver 🧩
+            I am a Machine Learning Enthusiast 🤖, UI/UX Designer 🎨, UI Developer 💻 , and a Great Problem Solver 🧩
           </h2>
           {/* //////////////////////////// */}
           <div className={styles.icon}>
@@ -71,7 +70,7 @@ export default function Home() {
         <div className={styles.imageSection}>
           <div className={styles.image}>
             {" "}
-            <Image src={hero} alt="Illustration" />
+            <Image width={490} height={490} src={hero} alt="Illustration" />
           </div>
         </div>
       </div>
