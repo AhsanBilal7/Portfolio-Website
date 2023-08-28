@@ -37,8 +37,8 @@ const Experience = () => {
           <h1 className="">Experience</h1>
           <p className="">
             My professional journey revolves around my fervent passion for
-            machine learning 🧠 research, where I've actively collaborated with
-            diverse research labs within my university. 🔬 Simultaneously, I've
+            machine learning 🧠 research, where I have actively collaborated with
+            diverse research labs within my university. 🔬 Simultaneously, I have
             harnessed my skill set in UI/UX 🎨 design and frontend development,
             undertaking part-time engagements in this field. This dual
             commitment has uniquely positioned 📊 me to acquire a deep

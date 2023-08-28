@@ -17,7 +17,7 @@ function contactUs() {
       <div className={styles.heroContainer}>
         <div className={styles.textSection}>
           <h1 className="">Contact Us</h1>
-          <p className="">  Need to reach me? Sure thing, but remember, even though I'm here to help, I can't fix your Wi-Fi with just a wave of my hand. So before you hit me up, make sure you've tried turning it off and on again! 😉 Looking forward to your message! </p>
+          <p className="">  Need to reach me? Sure thing, but remember, even though I am here to help, I cannot fix your Wi-Fi with just a wave of my hand. So before you hit me up, make sure you have tried turning it off and on again! 😉 Looking forward to your message! </p>
           {/* //////////////////////////// */}
           <div className={styles.icon}>
             <div className="d-flex flex-row m-0 justify-content-start p-0">

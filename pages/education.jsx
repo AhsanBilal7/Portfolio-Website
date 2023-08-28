@@ -101,7 +101,7 @@ const Education = () => {
             </li>
             <li>
               ⚡Actively involved in 🎉extracurricular activities including
-              Nust'21 orientation, Codefest, and more. 🌄🏞️🏢
+              Nust 2021 orientation, Codefest, and more. 🌄🏞️🏢
             </li>
           </ul>
         </div>

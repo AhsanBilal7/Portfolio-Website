@@ -124,7 +124,7 @@ export default function Project() {
           >
             <p>
               {" "}
-              Welcome to my design portfolio! Here, you'll find a selection of
+              Welcome to my design portfolio! Here, you will find a selection of
               my design projects that showcase my creativity and skills.
             </p>
           </div>
