@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="description" content="Ahsan Portfolio" />
       </Head>
 
-      <div className={styles.heroContainer}>
+      <div style={{marginBottom:"220px"} } className={`${styles.heroContainer}`}>
         <div className={styles.textSection}>
           <h1 className="">Hey There !</h1>
           <h2>

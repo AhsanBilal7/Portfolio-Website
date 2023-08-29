@@ -8,7 +8,7 @@ import Button from "react-bootstrap/Button";
 import Head from "next/head";
 function contactUs() {
   return (
-    <div>
+    <div style={{marginBottom:"300px"} }>
           <Head>
         <title>🧑‍💻Ahsan - Contact</title>
         <meta name="description" content="Ahsan Portfolio" />
