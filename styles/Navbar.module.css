@@ -53,14 +53,14 @@
     align-items: center;
     margin-bottom: 70px;
   }
-
   
-
-
-
-
+  
+  
+  
+  
+  
   /* //////////////// */
-
+  
   .footer {
     text-align: center;
     padding: 10px;
@@ -90,37 +90,59 @@
     margin-left: 5px;
   }
   
-
-/* ////////////////////// */
-
-
-
-/* styles.module.css */
-/* ...existing styles... */
-
-/* Adjust the logo size for mobile */
-@media (max-width: 768px) {
-  .logoImage {
-    min-width: 70px;
-  }
-  .link {
-    font-size: 18px;
-  }
-
-  .container {
+  
+  /* ////////////////////// */
+  
+  
+  
+  /* styles.module.css */
+  /* ...existing styles... */
+  
+  /* Adjust the logo size for mobile */
+  .mobcontainer{
     /* Adjust container styles for mobile view */
     padding: 10px 20px;
     margin-top: 0;
     border-radius: 0;
-  }
+    position: inherit;
+    background: none;
+    border: none;
+    margin: 20px auto 5px auto;
+    align-items: start;
+    justify-content: start;
 
-  .main {
-    /* Remove margin-bottom for mobile view */
-    margin-bottom: 0;
+    
   }
+  @media (max-width: 768px) {
+    .logoImage {
+      min-width: 70px;
+    }
+    .mobcontainer Nav Link  {
+      padding: 0px;
+  
+    }
+    .link {
+      font-size: 18px;
+    }
+    
+    .navbar {
+      align-items: start;
+    }
+    
+    .main {
+      /* Remove margin-bottom for mobile view */
+      margin-bottom: 0;
+      align-items: start;
+    }
 
   /* Hide navigation links in mobile view */
   .mobileNav {
     display: none;
   }
+  .divlinks{
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+
+
 }
