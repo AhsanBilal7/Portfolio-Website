@@ -23,12 +23,12 @@ export default function Home() {
           {/* //////////////////////////// */}
           <div className={styles.icon}>
             <div className="d-flex flex-row m-0 justify-content-start p-0">
-              <div className="mx-1">
+              {/* <div className="mx-1">
                 <SocialIcon
                   target="_blank"
                   url="https://www.facebook.com/ahsan.cricko"
                 />
-              </div>
+              </div> */}
               <div className="mx-1">
                 <SocialIcon
                   target="_blank"
