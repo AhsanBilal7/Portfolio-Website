@@ -33,6 +33,15 @@ const Experience = () => {
         <meta name="description" content="Ahsan Portfolio" />
       </Head>
       <div className={styles.heroContainer}>
+
+        
+
+        <div className={styles.imageSection}>
+          <div className={styles.image}>
+            {" "}
+            <Image src={exper} alt="Illustration" />
+          </div>
+        </div>
         <div className={styles.textSection}>
           <h1 className="">Experience</h1>
           <p className="">
@@ -48,15 +57,6 @@ const Experience = () => {
           </p>
           {/* //////////////////////////// */}
           <div className={styles.icon}></div>
-        </div>
-
-        
-
-        <div className={styles.imageSection}>
-          <div className={styles.image}>
-            {" "}
-            <Image src={exper} alt="Illustration" />
-          </div>
         </div>
       </div>
 

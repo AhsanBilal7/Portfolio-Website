@@ -1,92 +1,102 @@
 {
-
-
- "society":[{
-        "title": "Orientation NUST 2022",
-        "designation": "Deputy Director ",
-        "logopath" : "/onlogo.jpeg",
-        "certpath": "/oncert.png",
-        "tenure":"Jul 2022 - Sep 2022",
-        "clublink": "https://www.instagram.com/o_nust/"
-    },{
-        "title": "TABA Youth Chapter",
-        "designation": "Community Creative Member",
-        "logopath" : "/tabalogo.jpeg",
-        "certpath": "/tabacert.jpg",
-        "tenure":"June 2020 - Jun 2021",
-        "clublink": "https://www.instagram.com/tycnust/"
-    },{
-        "title": "Solution Fest 2022",
-        "designation": "Creative Team Member",
-        "logopath" : "/solutionlogo.png",
-        "certpath": "/solutionahsan.png",
-        "tenure":"Dec 2022",
-        "clublink": "https://www.instagram.com/solutionfestpk/"
-    },{
-        "title": "CodeFest 2021",
-        "designation": "Creative Head",
-        "logopath" : "/codefestlogo.jpg",
-        "certpath": "/googlecert.png",
-        "tenure":"Dec 2021 - Feb 2022",
-        "clublink": "https://www.instagram.com/gdscnust/"
-    },
-    {
-        "title": "AIME",
-        "designation": "Mentor ",
-        "logopath" : "/aime.jpeg",
-        "certpath": "/tabacert.jpg",
-        "tenure":"June 2020 - Jun 2021",
-        "clublink": "https://www.linkedin.com/company/aime/"
-    },{
-        "title": "Google Student Club NUST",
-        "designation": "Creative Lead",
-        "logopath" : "/gdsc.jpeg",
-        "certpath": "/googlecert.png",
-        "tenure":"Sep 2021 - Jul 2022",
-        "clublink": "https://www.linkedin.com/company/gdscnust/"
-    }
-    ,
-    {
-        "title": "National Literary Festival 2021",
-        "designation": "Operation Member",
-        "logopath" : "/nlflogo.png",
-        "certpath": "/nlfcert.jpg",
-        "tenure":"Mar 2021 - Aug 2021",
-        "clublink": "https://www.instagram.com/national_literary_festival/"
-    },{
-        "title": "Nust Trekking Club",
-        "designation": "Creative Team Member",
-        "logopath" : "/ntclogo.png",
-        "certpath": "/ntccert.jpg",
-        "tenure":"Jun 2020 - Jun 2021",
-        "clublink": "https://www.instagram.com/o_nust/"
-    },{
-        "title": "AWS Community Day",
-        "designation": "Community Day Ambassadar",
-        "logopath" : "/aws.jpeg",
-        "certpath": "/googlecert.png",
-        "tenure":"Sep 2021 - Oct 2021",
-        "clublink": "https://www.linkedin.com/company/aws-community-pakistan/"
-    }],
-    "courses" :[{
-        
+    "society": [
+        {
+            "title": "Orientation NUST 2022",
+            "designation": "Deputy Director ",
+            "logopath": "/onlogo.jpeg",
+            "certpath": "/oncert.png",
+            "tenure": "Jul 2022 - Sep 2022",
+            "clublink": "https://www.instagram.com/o_nust/"
+        },
+        {
+            "title": "TABA Youth Chapter",
+            "designation": "Community Creative Member",
+            "logopath": "/tabalogo.jpeg",
+            "certpath": "/tabacert.jpg",
+            "tenure": "June 2020 - Jun 2021",
+            "clublink": "https://www.instagram.com/tycnust/"
+        },
+        {
+            "title": "Solution Fest 2022",
+            "designation": "Creative Team Member",
+            "logopath": "/solutionlogo.png",
+            "certpath": "/solutionahsan.png",
+            "tenure": "Dec 2022",
+            "clublink": "https://www.instagram.com/solutionfestpk/"
+        },
+        {
+            "title": "CodeFest 2021",
+            "designation": "Creative Head",
+            "logopath": "/codefestlogo.jpg",
+            "certpath": "/googlecert.png",
+            "tenure": "Dec 2021 - Feb 2022",
+            "clublink": "https://www.instagram.com/gdscnust/"
+        },
+        {
+            "title": "AIME",
+            "designation": "Mentor ",
+            "logopath": "/aime.jpeg",
+            "certpath": "/tabacert.jpg",
+            "tenure": "June 2020 - Jun 2021",
+            "clublink": "https://www.linkedin.com/company/aime/"
+        },
+        {
+            "title": "Google Student Club NUST",
+            "designation": "Creative Lead",
+            "logopath": "/gdsc.jpeg",
+            "certpath": "/googlecert.png",
+            "tenure": "Sep 2021 - Jul 2022",
+            "clublink": "https://www.linkedin.com/company/gdscnust/"
+        },
+        {
+            "title": "National Literary Festival 2021",
+            "designation": "Operation Member",
+            "logopath": "/nlflogo.png",
+            "certpath": "/nlfcert.jpg",
+            "tenure": "Mar 2021 - Aug 2021",
+            "clublink": "https://www.instagram.com/national_literary_festival/"
+        },
+        {
+            "title": "Nust Trekking Club",
+            "designation": "Creative Team Member",
+            "logopath": "/ntclogo.png",
+            "certpath": "/ntccert.jpg",
+            "tenure": "Jun 2020 - Jun 2021",
+            "clublink": "https://www.instagram.com/o_nust/"
+        },
+        {
+            "title": "AWS Community Day",
+            "designation": "Community Day Ambassadar",
+            "logopath": "/aws.jpeg",
+            "certpath": "/aws_cert.png",
+            "tenure": "Sep 2021 - Oct 2021",
+            "clublink": "https://www.linkedin.com/company/aws-community-pakistan/"
+        }
+    ],
+    "courses": [
+        {
+            "title": "Selected as UGRIP Research Intern",
+            "designation": "Selected as Research Intern in UGRIP by MBZUAI but couldn't atttend Onsite Internship",
+            "logopath": "/mbzuai.png",
+            "certpath": "/ugrip.png",
+            "tenure": "2023",
+            "clublink": "https://mbzuai.ac.ae/"
+        },
+        {
             "title": "Google UX Professional Certificate",
             "designation": "7/7",
-            "logopath" : "/googlelogo.png",
+            "logopath": "/googlelogo.png",
             "certpath": "/googleux.png",
-            "tenure":"2022",
+            "tenure": "2022",
             "clublink": "https://coursera.org/verify/professional-cert/3TNS75TL8FAY"
-        
-    },
-    {
-        
-        "title": "Deep Learning Specialization Certificate",
-        "designation": "3/5",
-        "logopath" : "/deepai.png",
-        "certpath": "/cnn.png",
-        "tenure":"2022",
-        "clublink": "https://coursera.org/share/d90faa433600d1ce2dd9fb215ead8e4f"
-    
-}]
-
+        },
+        {
+            "title": "Deep Learning Specialization Certificate",
+            "designation": "3/5",
+            "logopath": "/deepai.png",
+            "certpath": "/cnn.png",
+            "tenure": "2022",
+            "clublink": "https://coursera.org/share/d90faa433600d1ce2dd9fb215ead8e4f"
+        }
+    ]
 }

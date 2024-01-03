@@ -18,7 +18,7 @@ export default function Home() {
         <div className={styles.textSection}>
           <h1 className="">Hey There !</h1>
           <h2>
-            I am a Machine Learning Enthusiast 🤖, UI/UX Designer 🎨, UI Developer 💻 , and a Great Problem Solver 🧩
+            I am a Machine Learning 👨‍💻 and Computer Vision 🤖 Enthusiast , , UI/UX Designer 🎨, UI Developer 💻 , and a Great Problem Solver 🧩
           </h2>
           {/* //////////////////////////// */}
           <div className={styles.icon}>
