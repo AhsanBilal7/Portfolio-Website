@@ -11,6 +11,8 @@ export default function Project() {
   const [data, setdata] = useState("Ahsan Bilal");
   const [devdata, setdevData] = useState([]);
   const [figmadata, setfigmaData] = useState([]);
+  const [uidata, setuiData] = useState([]);
+  const [uxdata, setuxData] = useState([]);
   const [mldata, setmlData] = useState([]);
   const [coursedata, setcourseData] = useState([]);
   const [wordpressdata, setwordpresseData] = useState([]);
@@ -23,6 +25,8 @@ export default function Project() {
         const data = await response.json();
         setdevData(data.FrontEnd);
         setfigmaData(data.figma);
+        setuiData(data.ui);
+        setuxData(data.ux);
         setmlData(data.ml);
         setcourseData(data.electrical);
         setwordpresseData(data.wordpress);
@@ -51,14 +55,10 @@ export default function Project() {
           </div>
 
           <div className={styles.textSection}>
-            <h1 className="">Wanna See Projects !</h1>
+            <h1 className="">Projects !</h1>
             <p>
-              As a UI/UX Designer 🎨 and UI Developer 💻, I have worked on
-              diverse projects, blending creativity with technical finesse. I am
-              driven by Machine Learning 🤖, infusing data insights into design,
-              and love tackling challenges as a Problem Solver 🧩. Every project
-              is an opportunity to innovate and create meaningful digital
-              experiences.
+            As a seasoned UI/UX Designer 🎨 and proficient UI Developer 💻, I have successfully contributed to a variety of projects, seamlessly blending creativity with technical finesse. I am particularly motivated by the realms of Machine Learning 🤖, where I adeptly infuse data insights into design. Recognized as a dedicated Problem Solver 🧩, I relish overcoming challenges and consider each project as an exciting opportunity to innovate and create meaningful digital experiences.
+
             </p>
             {/* //////////////////////////// */}
             <div className={styles.icon}></div>
@@ -96,7 +96,7 @@ export default function Project() {
       </style>
 
       <Tabs
-        defaultActiveKey="Machine Learning"
+        defaultActiveKey="UI Design"
         id="justify-tab-example"
         className="mb-3 border-0"
         justify
@@ -113,8 +113,59 @@ export default function Project() {
         <Tab eventKey="Development" title="Development">
           <CardComp cardsData={devdata} />
         </Tab>
+        <Tab eventKey="UX Case Study" title="UX Case Study">
+          <CardComp cardsData={uxdata} />
+        </Tab>
 
-        <Tab eventKey="Figma" title="Figma">
+        <Tab eventKey="UI Design" title="UI Design">
+          {/* <div
+            style={{
+              fontWeight: "bold",
+              marginBottom: "10px",
+              textAlign: "center",
+            }}
+          >
+            <p>
+              {" "}
+              Welcome to my design portfolio! Here, you will find a selection of
+              my design projects that showcase my creativity and skills.
+            </p>
+          </div>
+          <div
+            style={{
+              fontWeight: "bold",
+              marginBottom: "10px",
+              textAlign: "center",
+            }}
+          >
+            <p>
+              You can check my all design project by viewing my Behance link
+              below
+            </p>
+          </div> */}
+          <CardComp cardsData={uidata} />
+
+          <div style={{ marginBottom: "10px", textAlign: "center" }}>
+            <button
+              style={{
+                cursor: "pointer",
+                backgroundColor: "#007BFF",
+                border: "none",
+                padding: "10px 20px",
+                borderRadius: "3px",
+                color: "white",
+                transition: "background-color 0.3s",
+                justifyContent: "center",
+              }}
+              onClick={() =>
+                window.open("https://www.behance.net/ahsanbilal3", "_blank")
+              }
+            >
+              View Full Project
+            </button>
+          </div>
+        </Tab>
+        {/* <Tab eventKey="Figma" title="Figma">
           <div
             style={{
               fontWeight: "bold",
@@ -161,7 +212,7 @@ export default function Project() {
               View Full Project
             </button>
           </div>
-        </Tab>
+        </Tab> */}
 
         <Tab eventKey="Wordpress" title="Wordpress">
           <CardComp cardsData={wordpressdata} />

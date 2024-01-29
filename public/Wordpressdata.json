@@ -328,5 +328,112 @@
             ],
             "link": "behance.net/ahsanbilal3",
             "imagepath": "/wedding.png"
+        }],
+
+    "ui": [
+       
+        {
+            "title": "Official Askari Bank Employee App",
+            "description": "",
+            "icons": [
+                "/figma.svg",
+                "/materialui.svg"
+            ],
+            "link": "https://www.behance.net/gallery/186683503/Employee-Askari-App",
+            "imagepath": "/askari.png"
+        },
+        {
+            "title": "ArmorData Landing Page Design",
+            "description": "",
+            "icons": [
+                "/figma.svg"
+                
+            ],
+            "link": "https://www.behance.net/gallery/162494999/IOT-Based-Product-Website",
+            "imagepath": "/armordata.png"
+        },
+        {
+            "title": "Book Wedding-Venue App",
+            "description": "",
+            "icons": [
+                "/figma.svg",
+                "/materialui.svg"
+            ],
+            "link": "https://www.behance.net/gallery/154873023/Wedding-Venue-Web-Design",
+            "imagepath": "/wedding.png"
+        },
+        {
+            "title": "Digital Agency Landing Page",
+            "description": "",
+            "icons": [
+                "/figma.svg",
+                "/materialui.svg"
+            ],
+            "link": "https://www.behance.net/gallery/162495129/Digital-Agency-Landing-Page",
+            "imagepath": "/meraki.png"
+        },
+        {
+            "title": "Game Launcher Design",
+            "description": "",
+            "icons": [
+                "/figma.svg",
+                "/materialui.svg"
+            ],
+            "link": "https://www.behance.net/gallery/162495323/Game-Launcher-UI-Design",
+            "imagepath": "/gamelauncher.png"
+        },{
+            "title": "Orientation Nust 2022",
+            "description": "",
+            "icons": [
+                "/figma.svg",
+                "/illustrator.svg",
+                "/photoshop.svg"
+            ],
+            "link": "https://www.behance.net/gallery/152400491/Orientation-of-NUST-2022",
+            "imagepath": "/orientation.png"
+        },
+        {
+            "title": "Hacktober Fest 2021",
+            "description": "",
+            "icons": [
+                "/figma.svg",
+                "/illustrator.svg",
+                "/photoshop.svg"
+            ],
+            "link": "https://www.behance.net/gallery/150543651/Hacktober-Fest21",
+            "imagepath": "/hacktober.png"
+        },
+        {
+            "title": "Codefest 2021",
+            "description": "",
+            "icons": [
+                "/figma.svg",
+                "/illustrator.svg",
+                "/photoshop.svg"
+            ],
+            "link": "https://www.behance.net/gallery/150542743/Codefest-Solution-Fest-ft-GDSC-Nust",
+            "imagepath": "/codefest.png"
+        }],
+    "ux": [
+       
+        {
+            "title": "Enfohub Case Study",
+            "description": "Enfohub (Task Management & Simple Website Builder)",
+            "icons": [
+                "/figma.svg",
+                "/materialui.svg"
+            ],
+            "link": "https://www.figma.com/file/m7V34WPZmL7fs373gSedqi/EnfoHub-Tasks?type=design&node-id=0%3A1&mode=design&t=6U9FMl2ZsWvq0swv-1",
+            "imagepath": "/enfohub.png"
+        },
+        {
+            "title": "Superleader Full Case Study",
+            "description": "Superleader Saas Platform",
+            "icons": [
+                "/figma.svg",
+                "/materialui.svg"
+            ],
+            "link": "https://www.behance.net/gallery/150135279/UXUI-Case-Study",
+            "imagepath": "/superleader.png"
         }]
 }
